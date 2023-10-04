@@ -1,0 +1,26 @@
+.section-project {
+    background-color: rgb(250, 253, 224);
+  }
+  
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+  }
+  
+  .project-description {
+    max-width: 36rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-self: center;
+  }
+  
+  .phone-case {
+    padding-left: 50px;
+  }
+  
+  .project-description> p {
+    padding-top: 30px;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+  }

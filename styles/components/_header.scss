@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(177, 252, 187);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    padding: 4px;
+  }
+  
+  header .header-profile>.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+    }
+    
+  .header-profile {
+    display: flex;
+    align-items:center;
+    }
+  
+  .avatar{
+    margin-left: 30px;
+    }
+    
+  nav ul{
+    display: flex;
+  }
+  
+  nav ul a{
+    display: block;
+    padding: 35px 20px;
+    margin-right: 10px;
+  }
+  
+  nav ul li {
+    font-weight: bold;
+  }
+  
+  nav ul li:hover {
+    color: rgb(67, 182, 111);
+  }
+  
+  .header-profile> h3 {
+    font-size: 20px;
+  }

@@ -1,0 +1,26 @@
+footer {
+    background-color: black;
+    padding: 10px 3rem;
+  }
+  
+  footer> .footer-top {
+    display: flex;
+    flex-direction: row;
+    gap: 45rem;
+    padding: 30px;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 1px;
+  }
+  
+  .footer-social {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  
+  footer> .footer-bottom {
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    font-size: 13px;
+  }

@@ -1,0 +1,42 @@
+.section-about {
+    background-color: rgb(250, 253, 224);
+    text-align: center;
+    display:block;
+  }
+  
+  .get-to-know-me> p {
+    padding-top: 10px;
+    color: rgb(99, 99, 99);
+  }
+  
+  .about-content {
+    text-align: left;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr
+  }
+  
+  .get-to-know-me {
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 36rem;
+    grid-row: 30px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 36rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+  }
+  
+  .skills> ul> li {
+    background-color: rgba(87, 87, 87, 0.323) ;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 10px;
+    display: inline-block;
+  }

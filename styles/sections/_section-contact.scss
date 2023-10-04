@@ -1,0 +1,48 @@
+.section-contact {
+    background-color: rgb(44, 126, 75);
+    text-align: center;
+    color: rgb(250, 253, 224);
+    align-items: center;
+    padding-bottom: 10rem;
+  }
+  
+  .section-contact> form {
+    background-color:rgb(177, 252, 187);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 0px 10rem;
+    margin-top: 5rem;
+  }
+  
+  form> div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    color: black;
+    margin-bottom: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  
+  form input, textarea {
+    background-color: rgb(250, 253, 224);
+    color: rgb(99, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  form textarea:target {
+    border: none;
+  }
+  
+  form button {
+    align-self: flex-end;
+  }

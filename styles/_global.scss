@@ -1,0 +1,56 @@
+@use "theme";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body{
+    height: 100vh;
+    display: grid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-template-rows: auto 1fr 200px;
+  }
+
+  .btn {
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(153, 216, 161);
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+  }
+
+  .btn:hover {
+    transform: translateY(-5px);
+  }
+
+  h2 {
+    font-size: 40px;
+    padding: 80px;
+    letter-spacing: 2px;
+    padding-top: 10rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  textarea {
+    resize: none;
+  }
